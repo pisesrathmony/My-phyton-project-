@@ -21,3 +21,16 @@ print(QuestionTwo)
 answer = question()
 if answer == Choices[0]:
     print("Very good!")
+else:
+    print("Wrong!")
+time.sleep(2)
+
+QuestionThree = "\nThe sky is very _____ today."
+print (QuestionThree)
+answer = question()
+if answer == Choices[2]:
+    print("Very good!")
+else:
+    print("Wrong!")
+
+
